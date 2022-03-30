@@ -71,7 +71,7 @@ class LoginScreen extends StatelessWidget {
 
     return UniversalScaffold(
       body: body,
-      resizeToAvoidBottomInset: false,
+      resizeToAvoidBottomInset: true,
     );
   }
 }
