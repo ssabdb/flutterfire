@@ -17,6 +17,7 @@ class LoginScreen extends StatelessWidget {
   final TextDirection? desktopLayoutDirection;
   final String? email;
   final bool? showAuthActionSwitch;
+  final bool? resizeToAvoidBottomInset;
   final AuthViewContentBuilder? subtitleBuilder;
   final AuthViewContentBuilder? footerBuilder;
   final Key? loginViewKey;
@@ -32,6 +33,7 @@ class LoginScreen extends StatelessWidget {
     this.headerMaxExtent = defaultHeaderImageHeight,
     this.sideBuilder,
     this.desktopLayoutDirection = TextDirection.ltr,
+    this.resizeToAvoidBottomInset = false,
     this.email,
     this.showAuthActionSwitch,
     this.subtitleBuilder,
